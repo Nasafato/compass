@@ -1,0 +1,52 @@
+/*
+colors
+
+    primary dark: #22264bff
+    secondary gold: #e6cf8b
+    ternary red: #b56969
+*/
+
+body, html, container {
+    height: 100%;
+    width: 100%;
+    background-color: #22264b;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-wrapper {
+    position: relative;
+    padding: 15px;
+}
+
+.dark-red {
+    color: #b56969
+}
+
+#sidebar-wrapper, #content-wrapper {
+    height: 100%;
+    float: left;
+}
+
+#sidebar-wrapper {
+    width: 30%;
+}
+
+#results {
+    font-size: 1em;
+    color: #e6cf8b;
+}
+
+#results.list-item {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#content-wrapper {
+    width: 70%;
+}
+
+#map {
+	height: 100%;
+    width: 100%;
+}
